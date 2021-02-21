@@ -1,3 +1,5 @@
-# Strapi application
+# Klog ( strapi backend )
 
-A quick description of your strapi application
+- [ ] setting sqlite3 -> postgresql
+- [ ] deploy heroku ( server )
+- [ ] deploy heroku ( postgresql )
