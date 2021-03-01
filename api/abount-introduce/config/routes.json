@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/abount-introduce",
+      "handler": "abount-introduce.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/abount-introduce",
+      "handler": "abount-introduce.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/abount-introduce",
+      "handler": "abount-introduce.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

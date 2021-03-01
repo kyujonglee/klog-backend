@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_description_project_descriptions",
+  "info": {
+    "name": "project_description",
+    "icon": "atom"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}

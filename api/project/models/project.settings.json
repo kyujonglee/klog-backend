@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string"
+    },
+    "stacks": {
+      "collection": "stack",
+      "via": "project"
+    },
+    "desc": {
+      "type": "component",
+      "repeatable": true,
+      "component": "description.project-description"
+    }
+  }
+}

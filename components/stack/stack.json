@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_stack_stacks",
+  "info": {
+    "name": "Stack",
+    "icon": "dice-d6"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
