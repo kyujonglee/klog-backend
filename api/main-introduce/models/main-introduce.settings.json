@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "abount_introduces",
+  "collectionName": "main_introduces",
   "info": {
-    "name": "Abount_Introduce"
+    "name": "main_introduce"
   },
   "options": {
     "increments": true,

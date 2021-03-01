@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/introduce",
-      "handler": "introduce.find",
+      "path": "/about-introduce",
+      "handler": "about-introduce.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/introduce",
-      "handler": "introduce.update",
+      "path": "/about-introduce",
+      "handler": "about-introduce.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/introduce",
-      "handler": "introduce.delete",
+      "path": "/about-introduce",
+      "handler": "about-introduce.delete",
       "config": {
         "policies": []
       }
