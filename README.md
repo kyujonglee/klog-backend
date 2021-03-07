@@ -1,5 +1,5 @@
 # Klog ( strapi backend )
 
-- [ ] setting sqlite3 -> postgresql
-- [ ] deploy heroku ( server )
-- [ ] deploy heroku ( postgresql )
+- [x] setting sqlite3 -> postgresql
+- [x] deploy heroku ( server )
+- [x] deploy heroku ( postgresql )
