@@ -24,10 +24,6 @@
     "subTitle": {
       "type": "string"
     },
-    "stacks": {
-      "collection": "stack",
-      "via": "project"
-    },
     "desc": {
       "type": "component",
       "repeatable": true,
@@ -47,6 +43,10 @@
     "slug": {
       "type": "uid",
       "targetField": "title"
+    },
+    "stacks": {
+      "via": "projects",
+      "collection": "stack"
     }
   }
 }

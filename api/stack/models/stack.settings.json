@@ -2,11 +2,13 @@
   "kind": "collectionType",
   "collectionName": "stacks",
   "info": {
-    "name": "stack"
+    "name": "stack",
+    "description": ""
   },
   "options": {
     "increments": true,
-    "timestamps": true
+    "timestamps": true,
+    "draftAndPublish": false
   },
   "attributes": {
     "name": {
@@ -14,9 +16,10 @@
       "unique": true,
       "required": true
     },
-    "project": {
+    "projects": {
+      "collection": "project",
       "via": "stacks",
-      "model": "project"
+      "dominant": true
     }
   }
 }
